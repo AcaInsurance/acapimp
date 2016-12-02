@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+    
+    <ImageView
+		android:id="@+id/imgPhoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/no_image"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"
+        />
+     
+     
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgPhoto"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="Image Description"
+        android:textStyle="bold"
+         />
+    
+    <ProgressBar 
+        android:id="@+id/pbPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/txtDesc"
+        
+        />
+      
+    
+</RelativeLayout>

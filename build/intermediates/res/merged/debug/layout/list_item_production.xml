@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:padding="10dp" 
+        android:paddingTop="10dp" 
+        android:layout_marginBottom="10dp" 
+        android:background="#55000000"
+        >
+
+        <LinearLayout
+	        android:id="@+id/row1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" 
+	        android:layout_toLeftOf="@+id/btnSyncPolis"
+	         >
+	        
+         <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1"
+	        >
+	        
+	    	<TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Policy No."
+	            android:textColor="@color/White"
+	            android:textSize="15dp"
+	            android:textStyle="bold" 
+	            android:layout_weight="0.4"
+	            >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtProductionPolicyNo"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="000000"
+	            android:textColor="@color/White"
+	            android:textSize="15dp" 
+	            android:layout_weight="0.6" >
+	        </TextView>
+	        
+	    </LinearLayout> 
+	    
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1"
+	        >
+	        
+	    	<TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Name"
+	            android:textColor="@color/White"
+	            android:textSize="15dp"
+	            android:textStyle="bold" 
+	            android:layout_weight="0.4"
+	            >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtProductionCustomerName"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Name"
+	            android:textColor="@color/White"
+	            android:textSize="15dp" 
+	            android:layout_weight="0.6" >
+	        </TextView>
+	        
+	    </LinearLayout> 
+	    
+          
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1"
+	        >
+	        
+	    	<TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Product"
+	            android:textColor="@color/White"
+	            android:textSize="15dp"
+	            android:textStyle="bold" 
+	            android:layout_weight="0.4"
+	            >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtProductionProduct"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Nama Produk"
+	            android:textColor="@color/White"
+	            android:textSize="15dp" 
+	            android:layout_weight="0.6" >
+	        </TextView>
+	        
+	    </LinearLayout> 
+	    
+        
+        
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1"
+	        >
+	        
+	    	<TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Expired Date"
+	            android:textColor="@color/White"
+	            android:textSize="15dp"
+	            android:textStyle="bold" 
+	            android:layout_weight="0.4"
+	            >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtProductionExpDate"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Nama Produk"
+	            android:textColor="@color/White"
+	            android:textSize="15dp" 
+	            android:layout_weight="0.6" >
+	        </TextView>
+	        
+	    </LinearLayout> 
+
+        
+           <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1"
+	        >
+	        
+	    	<TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Premi"
+	            android:textColor="@color/White"
+	            android:textSize="15dp"
+	            android:textStyle="bold" 
+	            android:layout_weight="0.4"
+	            >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtPremi"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="9999999"
+	            android:textColor="@color/White"
+	            android:textSize="15dp" 
+	            android:layout_weight="0.6" >
+	        </TextView>
+	        
+	    </LinearLayout> 
+	    
+           
+          <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1"
+	        >
+	        
+	    	<TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Penurunan Premi"
+	            android:textColor="@color/White"
+	            android:textSize="15dp"
+	            android:textStyle="bold" 
+	            android:layout_weight="0.4"
+	            >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtPenurunanPremi"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="9999999"
+	            android:textColor="@color/White"
+	            android:textSize="15dp" 
+	            android:layout_weight="0.6" >
+	        </TextView>
+	        
+	    </LinearLayout> 
+	    
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="1"
+	        >
+	        
+	    	<TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Kenaikan Premi"
+	            android:textColor="@color/White"
+	            android:textSize="15dp"
+	            android:textStyle="bold" 
+	            android:layout_weight="0.4"
+	            >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtKenaikanPremi"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="9999999"
+	            android:textColor="@color/White"
+	            android:textSize="15dp" 
+	            android:layout_weight="0.6" >
+	        </TextView>
+	        
+	    </LinearLayout> 
+        </LinearLayout>            
+        
+		<ImageView
+            android:id="@+id/btnSyncPolis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+	    	android:background="@drawable/buttonpressed"
+            android:padding="5dp"
+            android:src="@drawable/renewal" />
+        
+            
+ 	</RelativeLayout>
+
+</RelativeLayout>

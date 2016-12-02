@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+     
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="Remark"
+            android:padding="7dp"
+            />
+        
+        <EditText 
+            android:id="@+id/txtRemark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/edittext"
+            android:hint="Remark"
+            android:padding="7dp"
+            />
+             
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        >  
+         
+          <Button android:id="@+id/btnOk"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" 
+             android:minWidth="100dp"
+             android:text="Ok"
+             android:textStyle="bold"
+             android:textColor="@color/White"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             
+             />
+     </LinearLayout>
+	
+</LinearLayout>

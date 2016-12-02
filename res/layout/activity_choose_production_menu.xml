@@ -1,0 +1,413 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/abg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick"  />
+
+        </RelativeLayout>
+        
+        <com.aca.pimp.CustomTextViewBold
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Search Production"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+        android:padding="5dp"
+        android:layout_marginTop="10dp" >
+        
+        	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+            
+           <TableLayout android:id="@+id/sectionResult"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp" 
+           		 android:background="@drawable/sectionbg"
+           		  >
+           		  
+               
+                 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Periode"
+		                android:layout_gravity="center_vertical"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <Spinner
+	                    android:id="@+id/spnPeriode"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.5" 
+	                    android:background="@drawable/edittext"
+	                    />
+                </TableRow>
+                
+               <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="My Result"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <Button 
+	                    android:id="@+id/btnMyResult"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.5"
+	                    android:text="Show"
+	                    android:textStyle="bold"
+	                    android:textColor="@color/White"
+	                    android:background="@drawable/infobutton"
+	                    />
+                </TableRow>
+	                
+	                
+   		  </TableLayout>
+           
+            
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp" 
+           		 android:background="@drawable/sectionbg"
+           		  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="From"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtFrom"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+	                    android:padding="7dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	            	    android:hint="From date"
+	                    android:inputType="textCapCharacters|textMultiLine"
+	                    
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                   
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp" 
+            		>
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="To"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtTo"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="To Date"
+	                    android:padding="7dp"
+	                    android:inputType="textCapCharacters|textMultiLine"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                   
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView android:id="@+id/lblBranch"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_gravity="center_vertical"
+		                android:text="Branch"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <LinearLayout 
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.5"
+	                    android:orientation="horizontal"
+	                    android:layout_marginRight="5dp"
+	                    >
+	                    <Spinner 
+	                        android:id="@+id/spnBranch"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="fill_parent" 
+	                        android:spinnerMode="dropdown"  
+		                    android:background="@drawable/edittext"
+		                    
+	                        />
+		                 
+	                
+	                </LinearLayout>
+
+					</TableRow>
+					
+                  
+                
+                <TableRow 
+	            		android:layout_height="wrap_content"
+	            		android:layout_marginBottom="2dp"	
+		            	android:weightSum="1.0"
+	            		android:layout_width="0dp">
+
+	                <TextView android:id="@+id/lblLeader"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Pembina"
+		                android:layout_gravity="center_vertical"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <LinearLayout 
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.5"
+	                    android:orientation="horizontal"
+	                    android:layout_marginRight="5dp"
+	                    >
+	                    <Spinner 
+	                        android:id="@+id/spnLeader"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="fill_parent" 
+	                        android:spinnerMode="dropdown"  
+		                    android:background="@drawable/edittext"
+		                    
+	                        />
+		                  
+	                </LinearLayout>
+ 
+
+                </TableRow>
+                
+                  <TableRow 
+	            		android:layout_height="wrap_content"
+	            		android:layout_marginBottom="2dp"	
+		            	android:weightSum="1.0"
+	            		android:layout_width="0dp">
+
+	                <TextView android:id="@+id/lblUserID"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="User Name"
+		                android:layout_gravity="center_vertical"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <LinearLayout 
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.5"
+	                    android:orientation="horizontal"
+	                    android:layout_marginRight="5dp"
+	                    >
+	                    <Spinner 
+	                        android:id="@+id/spnUserID"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="fill_parent" 
+	                        android:spinnerMode="dropdown"  
+		                    android:background="@drawable/edittext"
+		                    
+	                        />
+		                  
+	                </LinearLayout>
+ 
+
+                </TableRow>
+                   <TableRow 
+	            		android:layout_height="wrap_content"
+	            		android:layout_marginBottom="2dp"	
+		            	android:weightSum="1.0"
+	            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Approval"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                 <RadioGroup 
+	                     android:id="@+id/rgApproval"
+	                     android:layout_weight="0.5"
+	                     android:layout_width="0dp"
+	                     android:layout_height="wrap_content"
+	                     android:orientation="vertical"
+	                     >
+	                     <RadioButton 
+	                         android:id="@+id/rbNeedAppove"
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         android:text="Need Approve"
+		                     android:textColor="@color/White"
+		                     android:checked="true"
+	                         />
+	                     
+	                     <RadioButton 
+	                         android:id="@+id/rbHasBeenApprove"
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         android:text="Has Been Approved"
+		              	  	 android:textColor="@color/White"
+	                         />
+	                     
+	                      <RadioButton 
+	                         android:id="@+id/rbHasBeenRejected"
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         android:text="Has Been Rejected"
+		              	  	 android:textColor="@color/White"
+	                         />
+	                      
+	                 </RadioGroup> 
+                </TableRow>
+                        
+             </TableLayout>
+                
+               
+		    <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                 <Button
+			        android:id="@+id/btnCancel"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton" 
+			        android:padding="10dp"
+			        android:text="Cancel"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnSearch"
+			        android:layout_marginTop="20dp"
+			        android:minWidth="100dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton" 
+			        android:padding="10dp"
+			        android:text="Search"
+			        android:textStyle="bold"
+			        android:textColor="@color/White" />
+                
+            </LinearLayout>
+          </LinearLayout>     
+        </ScrollView>
+        
+    
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>

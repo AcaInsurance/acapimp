@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:background="#ffffff"
+    
+     >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            
+            
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" 
+                android:layout_gravity="center_vertical"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Status"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtStatus"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+            
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"            	 
+                android:layout_gravity="center_vertical"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Level"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtLevel"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+         
+          <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"            	 
+                android:layout_gravity="center_vertical"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Periode"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtPeriode"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+         
+            
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"            	 
+                android:gravity="center_vertical"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Akumulasi Premi"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtAkumulasiTotal"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+          		 android:gravity="right" 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+          
+     
+         
+           <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical" 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Uang Saku Dasar"
+            	 android:textStyle="bold"
+				/>
+
+            <TextView
+                android:id="@+id/txtBasicAllowance"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6"
+                android:gravity="center_vertical|right"
+                android:hint="Rp. 9000.000"
+                android:padding="7dp"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/font_normal" />
+            
+         </LinearLayout>
+         
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+            	 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Uang Saku Prestasi"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtSalary"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+          		 android:gravity="right"  
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+         
+         
+          <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+            	 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Pemotongan uang Saku"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtPemotongan"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+          		 android:gravity="right"  
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+         
+          
+          <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+            	 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Penambahan uang Saku"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtPenambahan"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+          		 android:gravity="right"  
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+          
+             <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Total Uang Saku"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtTotalAllowance"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+          		 android:gravity="right"  
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+         
+             
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical" 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Index Prestasi"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtTarget"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp" 
+          		 android:gravity="right"  
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+         
+          <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+            	 
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Hasil"
+            	 android:textStyle="bold"
+				/>
+            
+              <TextView android:id="@+id/txtResult"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.6"
+          		 android:padding="7dp"   
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black" 
+				/>
+            
+         </LinearLayout>
+         
+            
+          
+          <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+           
+            <Button
+	             android:id="@+id/dlgBack"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:minWidth="100dp"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/back"
+	             android:padding="10dp"
+	             android:text="Back"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+           </LinearLayout>
+           
+      </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

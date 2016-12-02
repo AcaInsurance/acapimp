@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp" 
+            	android:textStyle="bold"
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.Subtitle"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.1"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.2"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.3"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.4"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.5"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.6"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.7"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.8"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.9"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.10"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.11"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White" 
+				android:text="@string/marine.message.risikoDijamin.instituteCargo.12"
+				/>
+            
+              
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp" 
+            	android:textStyle="bold"
+				android:text="@string/marine.message.pengecualian.instituteCargo.subtitle"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.1"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.2"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.3"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.4"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.5"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.6"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.7"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.8"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.9"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"  
+				android:text="@string/marine.message.pengecualian.instituteCargo.10"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp" 
+            	android:textStyle="bold"
+				android:text="@string/marine.message.risikoDijamin.DAILand.subtitle"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"   
+				android:text="@string/marine.message.risikoDijamin.DAILand.1"
+				/>
+              
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp" 
+            	android:textStyle="bold"
+				android:text="@string/marine.message.pengecualian.DAILand.subtitle"
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"   
+				android:text="@string/marine.message.pengecualian.DAILand.1"
+				/>
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"   
+				android:text="@string/marine.message.pengecualian.DAILand.2"
+				/>
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"   
+				android:text="@string/marine.message.pengecualian.DAILand.3"
+				/>
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"   
+				android:text="@string/marine.message.pengecualian.DAILand.4"
+				/>
+              
+             <Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

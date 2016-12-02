@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:textStyle="bold"
+				android:text="@string/marine.message.whatInsured.1"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:textStyle="bold"
+				android:text="@string/marine.message.whatInsured.2"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:textStyle="bold"
+				android:text="@string/marine.message.whatInsured.3"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:textStyle="bold"
+				android:text="@string/marine.message.whatInsured.4"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.a"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.b"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.c"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.d"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.e"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.f"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.g"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.h"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.i"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.j"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.k"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.l"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.m"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.n"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp"
+            	android:background="@color/White"
+				android:text="@string/marine.message.whatInsured.4.o"
+				/>
+             
+            
+              <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:layout_margin="1dp" 
+				android:text="@string/marine.message.whatInsured.Additional"
+				android:textStyle="bold"
+				/>
+             
+              
+             <Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>
